@@ -13,7 +13,7 @@ const products = [
     { id: 10, title: 'Сардиния', price: 250 },
 ];
 
-const renderProduct = (item, img ='img/piz.png') =>
+const renderProduct = (item, img ='img/pizza.png') =>
              `<div class="product-item">
                 <img src="${img}" alt="image" class="product-img">
                 <h3 class="product-title">${item.title}</h3>
